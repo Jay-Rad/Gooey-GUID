@@ -9,7 +9,7 @@
     <Border CornerRadius="50" BorderBrush="DarkGray" BorderThickness="3" Background="WhiteSmoke" MouseLeftButtonDown="Border_MouseLeftButtonDown" Height="{Binding ActualHeight, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" Width="{Binding ActualWidth, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}">
         <Grid>
             <Button x:Name="buttonClose" Content="X" Width="25" Height="25" Margin="20" VerticalAlignment="Top" HorizontalAlignment="Right" Click="buttonClose_Click"/>
-            <TextBlock Text="Gooey GUID" Margin="20,20,80,0" VerticalAlignment="Top" FontFamily="Segoe Print" FontSize="24" FontWeight="Bold"/>
+            <TextBlock Text="GUID Generator" Margin="20,20,80,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
             <TextBox x:Name="textGUID" IsReadOnly="True" Margin="20,80,20,0" VerticalAlignment="Top" FontSize="20"/>
             <Button x:Name="buttonCopy" Content="Copy" Height="40" Width="60" FontWeight="Bold" FontSize="14" Margin="20,120,20,0" VerticalAlignment="Top" HorizontalAlignment="Right" Click="buttonCopy_Click"/>
             <Button x:Name="buttonNew" Content="New" Height="40" Width="60" FontSize="14" Margin="20,120,100,0" VerticalAlignment="Top" HorizontalAlignment="Right" Click="buttonNew_Click"/>
