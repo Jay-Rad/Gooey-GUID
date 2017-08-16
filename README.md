@@ -1,2 +1,2 @@
-# Gooey-GUID
-Dislike Visual Studio's GUID creator?  Me too!  So I made this.  It's gooey!
+# GUID Generator
+Quickly create GUIDs and copy them to your clipboard.
